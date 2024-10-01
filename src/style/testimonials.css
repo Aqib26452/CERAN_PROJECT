@@ -1,0 +1,10 @@
+.bgsetbutton {
+  border-radius: 61px;
+  background: #2183c6;
+  padding: 14px 29px;
+}
+
+.bgSetttt {
+  border-radius: 24px;
+  background: linear-gradient(270deg, #df352a 0%, #2183c6 100%);
+}

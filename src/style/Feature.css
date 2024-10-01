@@ -1,0 +1,142 @@
+.txtSett {
+  color: #2b2b2b;
+  text-align: center;
+  font-family: Montserrat;
+  /* font-size: 40px; */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.gradienttxt {
+  background: linear-gradient(270deg, #df352a 2.51%, #2183c6 34.33%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Montserrat;
+  /* font-size: 40px; */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.txtSett1 {
+  color: #2b2b2b;
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.gradienttxt1 {
+  background: linear-gradient(270deg, #df352a 2.51%, #2183c6 34.33%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.BgBorderSet {
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(29.25px);
+}
+.hsetpicc {
+  height: var(--Sec, 5px);
+}
+.fontSetPP {
+  font-size: 13px;
+}
+
+.BgSETFeatureImage {
+  background-image: url("E:\reactjs\CERAN\my-app\src\Asserts\FeatureBgPic.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.SetLeftBgImage {
+  background-image: url("E:\reactjs\CERAN\my-app\src\Asserts\FeatureLefttPIc.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+.SetRightBgImage {
+  background-image: url("E:\reactjs\CERAN\my-app\src\Asserts\FeatureRightPic.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+@media only screen and (max-width: 300px) {
+  .txtsetsmall1 {
+    margin-top: -50px !important;
+    font-size: 9px !important;
+  }
+  .txtsetsmall2 {
+    font-size: 6px !important;
+    margin-top: 0px !important;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .BgBorderSet {
+    width: 75% !important;
+  }
+  .txtsetsmall1 {
+    margin-top: -20px !important;
+    font-size: 11px !important;
+  }
+  .txtsetsmall2 {
+    font-size: 7px !important;
+    margin-top: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .setFontStyle {
+    font-size: 55px !important;
+  }
+  .txtSett {
+    font-size: 12px !important;
+    bottom: 13px !important;
+  }
+  .txtsetsmall1 {
+    margin-top: 0px !important;
+    font-size: 9px !important;
+  }
+  .txtsetsmall2 {
+    font-size: 5px !important;
+  }
+  .bg-Set-01 {
+    top: 6px;
+    width: 90%;
+  }
+  .bg-Set-02 {
+    top: 20px;
+    width: 90%;
+  }
+  .bg-Set-03 {
+    top: 6px;
+    width: 90%;
+  }
+  .bg-Set-04 {
+    top: 24px;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .setFontStyle {
+    font-size: 40px !important;
+  }
+  .txtSett {
+    bottom: 10px !important;
+    font-size: 9px !important;
+  }
+}
