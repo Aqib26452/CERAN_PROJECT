@@ -7,9 +7,33 @@ import "../SASS/main.css";
 
 const Feature = () => {
   return (
-    <div className="BgSETFeatureImage ">
-      <div className="SetLeftBgImage">
-        <div className="SetRightBgImage">
+    <div
+      className="BgSETFeatureImage "
+      style={{
+        backgroundImage: `url(${FeatureBgPic})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSsize: "contain",
+        backgroundPosition: "center",
+      }}
+    >
+      <div
+        className="SetLeftBgImage"
+        style={{
+          backgroundImage: `url(${FeatureLeftPic})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSsize: "contain",
+          backgroundPosition: "left",
+        }}
+      >
+        <div
+          className="SetRightBgImage"
+          style={{
+            backgroundImage: `url(${FeatureRightPic})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSsize: "contain",
+            backgroundPosition: "right",
+          }}
+        >
           <div className=" ">
             <div className=" top-0 left-0 right-0 bottom-0 mt-10">
               <div className="">

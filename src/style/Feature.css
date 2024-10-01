@@ -56,25 +56,6 @@
   font-size: 13px;
 }
 
-.BgSETFeatureImage {
-  background-image: url("E:\reactjs\CERAN\my-app\src\Asserts\FeatureBgPic.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-.SetLeftBgImage {
-  background-image: url("E:\reactjs\CERAN\my-app\src\Asserts\FeatureLefttPIc.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: left;
-}
-.SetRightBgImage {
-  background-image: url("E:\reactjs\CERAN\my-app\src\Asserts\FeatureRightPic.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
-}
-
 @media only screen and (max-width: 300px) {
   .txtsetsmall1 {
     margin-top: -50px !important;
